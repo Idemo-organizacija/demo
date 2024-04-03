@@ -29,5 +29,5 @@ jobs:
 
     - name: Build and deploy
       run: |
-        ng build -- --base-href=/demo_app/
-        ngh --dir=dist/demo_app --no-silent
+        ng build
+        ngh --dir=dist/idemo_demo/browser --no-silent
