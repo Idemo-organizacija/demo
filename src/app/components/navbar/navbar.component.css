@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #ffffff; /* White background */
+}
+  
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #bd6bff; /* Purple color on hover or when active */
+}
