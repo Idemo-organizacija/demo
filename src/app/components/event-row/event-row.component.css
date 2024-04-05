@@ -1,0 +1,31 @@
+.image-row {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+  scrollbar-width: none; /* Hide scrollbar */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Hide scrollbar in Firefox */
+.image-row::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: 1.5;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 88%;
+  height: 1px;
+  background-color: black;
+  transform: translateY(-50%);
+}

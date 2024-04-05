@@ -1,5 +1,5 @@
 # Build angular project
-$ ng build
+& ng build --base-href="https://idemo-organizacija.github.io/demo/"
 
 # Run ngh to generate github pages
-ngh --dir=dist/idemo_demo/browser --no-silent
+& ngh --dir=dist/idemo_demo/browser
