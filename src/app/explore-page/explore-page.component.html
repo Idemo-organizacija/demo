@@ -1,5 +1,5 @@
-<app-event-row></app-event-row>
-<app-event-row></app-event-row>
-<app-event-row></app-event-row>
-<app-event-row></app-event-row>
-<app-event-row></app-event-row>
+<app-event-row
+  *ngFor="let event of getEvents"
+  [title]="event.key"
+  [events]="event.value"
+></app-event-row>

@@ -12,20 +12,24 @@
   display: none;
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  line-height: 1.5;
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
 }
 
-h1::after {
+.separator::before,
+.separator::after {
   content: "";
-  position: absolute;
-  top: 50%;
-  right: 0;
-  width: 88%;
-  height: 1px;
-  background-color: black;
-  transform: translateY(-50%);
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
 }

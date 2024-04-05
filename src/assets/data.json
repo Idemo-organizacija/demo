@@ -1,0 +1,143 @@
+{
+    "events": [
+        {
+            "name": "Babe Live",
+            "type": "Rock Concert",
+            "location": "Belgrade",
+            "image": "https://tekstomanija.com/wp-content/uploads/2017/06/Babe-Slike-iz-%C5%BEivota-jednog-idiota.jpg"
+        },
+        {
+            "name": "Buc Kesidi",
+            "type": "Rock Concert",
+            "location": "Belgrade",
+            "image": "https://f4.bcbits.com/img/a2519191499_10.jpg"
+        },
+        {
+            "name": "Abba Tribute",
+            "type": "Pop Concert",
+            "location": "New York",
+            "image": "https://media.plus.rtl.de/music-deezer/cover/36133053035ca8f184eb469901965ac0/512x512-000000-80-0-0.jpg?tr=f-auto,w-512"
+        },
+        {
+            "name": "AC/DC Tribute",
+            "type": "Rock Concert",
+            "location": "New York",
+            "image": "https://i.pinimg.com/564x/36/d3/ec/36d3ec082c2eee8f2e74d560755d6556.jpg"
+        },
+        {
+            "name": "Queen Tribute",
+            "type": "Rock Concert",
+            "location": "New York",
+            "image": "https://media.pitchfork.com/photos/5bcdf986b6b4f21eb1010d1c/1:1/w_450%2Cc_limit/Queen-Bohemian-Rhapsody-The-Original-Soundtrack-Cover-Art.jpeg.jpg"
+        },
+        {
+            "name": "Yu Grupa",
+            "type": "Rock Concert",
+            "location": "Belgrade",
+            "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/1973b_-_YU_Grupa.jpg"
+        },
+        {
+            "name": "Van Gogh",
+            "type": "Rock Concert",
+            "location": "Belgrade",
+            "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/Van_Gogh_Album.jpeg"
+        },
+        {
+            "name": "Jelena Rozga Mini Concert",
+            "type": "Pop Concert",
+            "location": "Belgrade",
+            "image": "https://cdns-images.dzcdn.net/images/cover/cf34f8ed9e75b0b52268d15635ccdae1/500x500.jpg"
+        },
+        {
+            "name": "Zeljko Joksimovic",
+            "type": "Pop Concert",
+            "location": "Belgrade",
+            "image": "https://www.evropesma.org/wp-content/uploads/2015/07/ZeljkoJ.png"
+        },
+        {
+            "name": "Lexington",
+            "type": "Pop Concert",
+            "location": "Belgrade",
+            "image": "https://i1.sndcdn.com/artworks-000032502943-eac7kk-t500x500.jpg"
+        },
+        {
+            "name": "Dua Lipa",
+            "type": "Pop Concert",
+            "location": "New York",
+            "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9e8b4514-90f0-494d-9ce7-64e1ac78f6b4/dcqtw0c-258da0c3-6fbc-467e-90b1-4fdc32643d99.jpg/v1/fill/w_1024,h_1024,q_75,strp/dua_lipa_first_album_by_jangdahye_dcqtw0c-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzllOGI0NTE0LTkwZjAtNDk0ZC05Y2U3LTY0ZTFhYzc4ZjZiNFwvZGNxdHcwYy0yNThkYTBjMy02ZmJjLTQ2N2UtOTBiMS00ZmRjMzI2NDNkOTkuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.SIuUfc8R0re6WOwS3MzRb4kpEmLEPTooHeM1h60HZgE"
+        },
+        {
+            "name": "Superbowl",
+            "type": "Sport Event",
+            "location": "New York",
+            "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/super-bowl-poster-design-template-879ff0d737df3fc10e12a9dc97c7bcb1_screen.jpg?ts=1690265417"
+        },
+        {
+            "name": "Marathon",
+            "type": "Sport Event",
+            "location": "New York",
+            "image": "https://www.rrca.org/wp-content/uploads/08olympics-briefing-mens-marathon-mediumSquareAt3X.jpg"
+        },
+        {
+            "name": "Triatlon",
+            "type": "Sport Event",
+            "location": "Belgrade",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4MOOh1clYFnJ9dHXYKczEjufDJGJOaF5wDTpUQ9MAaKgJLIcwvxcatYuormtWT34bFPU&usqp=CAU"
+        },
+        {
+            "name": "Marathon",
+            "type": "Sport Event",
+            "location": "Belgrade",
+            "image": "https://www.rrca.org/wp-content/uploads/08olympics-briefing-mens-marathon-mediumSquareAt3X.jpg"
+        },
+        {
+            "name": "Triatlon",
+            "type": "Sport Event",
+            "location": "Belgrade",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4MOOh1clYFnJ9dHXYKczEjufDJGJOaF5wDTpUQ9MAaKgJLIcwvxcatYuormtWT34bFPU&usqp=CAU"
+        },
+        {
+            "name": "Triatlon",
+            "type": "Sport Event",
+            "location": "Belgrade",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4MOOh1clYFnJ9dHXYKczEjufDJGJOaF5wDTpUQ9MAaKgJLIcwvxcatYuormtWT34bFPU&usqp=CAU"
+        },
+        {
+            "name": "Elemental",
+            "type": "Movie",
+            "location": "Belgrade",
+            "image": "https://eldiariony.com/wp-content/uploads/sites/2/2023/06/Elemental-Soundtrack.jpg?quality=80&strip=all&w=1200"
+        },
+        {
+            "name": "Openheimer",
+            "type": "Movie",
+            "location": "Belgrade",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfuU8R7MuKjoIKg5OiAu9Bfm7MUYSBLTVdPzAFnOYKKcy1SzqFOeuRbK8kEsz9zZz4HK0&usqp=CAU"
+        },
+        {
+            "name": "Barbie",
+            "type": "Movie",
+            "location": "Belgrade",
+            "image": "https://pbs.twimg.com/media/F1trV9eWIAIzvkm.jpg"
+        },
+        {
+            "name": "Jumanji",
+            "type": "Movie",
+            "location": "Belgrade",
+            "image": "https://www.uni.rs/files/watermark/files/images/slike_proizvoda/thumbs_w/102959_w_800_800px.jpg"
+        },
+        {
+            "name": "Spider Man - Across the Spiderverse",
+            "type": "Movie",
+            "location": "Belgrade",
+            "image": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Ftlc89a4j247a1.jpg"
+        },
+        {
+            "name": "Killers of the Flower Moon",
+            "type": "Movie",
+            "location": "Belgrade",
+            "image": "https://www.boxofficepro.com/wp-content/uploads/2023/09/killers-of-the-flower-moon.png"
+        }
+    ]
+}
+

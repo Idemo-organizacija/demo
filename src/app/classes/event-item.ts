@@ -1,3 +1,8 @@
 export class EventItem {
-    constructor(public imageUrl: string, public text: string) {}
+  constructor(
+    public image: string,
+    public name: string,
+    public type: string,
+    public location: string
+  ) {}
 }
