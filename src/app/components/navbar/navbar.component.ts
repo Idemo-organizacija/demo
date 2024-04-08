@@ -16,7 +16,7 @@ export class NavbarComponent implements OnInit {
     new NavBarItem('/recommendations', 'Recommendations'),
     new NavBarItem('/explore', 'Explore'),
     new NavBarItem('/connect', 'Connect'),
-    new NavBarItem('/signIn', 'SignIn'),
+    new NavBarItem('/signIn', 'Sign In'),
   ];
 
 

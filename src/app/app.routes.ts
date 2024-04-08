@@ -5,6 +5,7 @@ import { RecommendationsPageComponent } from './recommendations-page/recommendat
 import { ExplorePageComponent } from './explore-page/explore-page.component';
 import { ConnectPageComponent } from './connect-page/connect-page.component';
 import { SignInpageComponent } from './sign-inpage/sign-inpage.component';
+import { SignUpPageComponent } from './sign-up-page/sign-up-page.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -13,6 +14,7 @@ export const routes: Routes = [
     { path: 'explore', component: ExplorePageComponent },
     { path: 'connect', component: ConnectPageComponent },
     { path: 'signIn', component: SignInpageComponent },
+    { path: 'signUp', component: SignUpPageComponent },
 ];
 
 @NgModule({
