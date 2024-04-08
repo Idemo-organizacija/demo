@@ -6,6 +6,7 @@ import { ExplorePageComponent } from './explore-page/explore-page.component';
 import { ConnectPageComponent } from './connect-page/connect-page.component';
 import { SignInpageComponent } from './sign-inpage/sign-inpage.component';
 import { SignUpPageComponent } from './sign-up-page/sign-up-page.component';
+import { InterestPickerComponent } from './components/interest-picker/interest-picker.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -15,6 +16,7 @@ export const routes: Routes = [
     { path: 'connect', component: ConnectPageComponent },
     { path: 'signIn', component: SignInpageComponent },
     { path: 'signUp', component: SignUpPageComponent },
+    { path: 'interestPicker', component: InterestPickerComponent },
 ];
 
 @NgModule({

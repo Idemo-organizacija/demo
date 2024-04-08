@@ -22,3 +22,21 @@
     background-color: #bd6bff;
     color: white;
 }
+
+.bubble-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bubble {
+    border: 2px solid #bd6bff;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .bubble.selected {
+    background-color: #bd6bff;
+    color: white;
+  }

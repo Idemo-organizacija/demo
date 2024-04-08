@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as jsonData from '../assets/data.json';
+import * as interestsData from '../assets/interests.json';
 import { EventItem } from './classes/event-item';
 
 @Injectable({
@@ -9,6 +10,7 @@ export class DataServiceService {
   constructor() {}
 
   events: EventItem[] = jsonData.events;
+  interests: string[] = interestsData.interests;
 
   getAllEvents(): EventItem[] {
     return this.events;
@@ -43,5 +45,9 @@ export class DataServiceService {
     this.events.forEach((event: EventItem) => types.add(event.type));
 
     return Array.from(types.values());
+  }
+
+  getAllInterests(): string[] {
+    return this.interests.sort((left: string, right: string) => left.localeCompare(right));;
   }
 }

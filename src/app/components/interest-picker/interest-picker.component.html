@@ -1,0 +1,29 @@
+<section class="vh-100 gradient-bg">
+    <div class="mask d-flex align-items-center h-100">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                            <h2 class="text-uppercase text-center mb-5">Whats your interest?</h2>
+                            <form>
+                                <div class="bubble-container">
+                                    <div *ngFor="let bubble of bubbles" class="bubble"
+                                        [class.selected]="bubble.selected" (click)="toggleSelection(bubble)">
+                                        {{ bubble.name }}
+                                    </div>
+                                </div>
+<br><br>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" [routerLink]="exploreLink" routerLinkActive="active"
+                                        class="btn btn-success btn-block btn-lg login-button">Continue</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
