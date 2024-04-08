@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+.btn-purple {
+    background-color: #bd6bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hollow-btn-purple {
+    background-color: transparent;
+    border: 2px solid #bd6bff;
+    color: #bd6bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hollow-btn-purple:hover {
+    background-color: #bd6bff;
+    color: white;
+}
