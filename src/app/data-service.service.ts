@@ -47,6 +47,13 @@ export class DataServiceService {
     return Array.from(types.values());
   }
 
+  getAllLocations(): string[] {
+    const types = new Set<string>();
+    this.events.forEach((event: EventItem) => types.add(event.location));
+
+    return Array.from(types.values());
+  }
+  
   getAllInterests(): string[] {
     return this.interests.sort((left: string, right: string) => left.localeCompare(right));;
   }

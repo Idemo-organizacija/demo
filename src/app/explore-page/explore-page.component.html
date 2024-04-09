@@ -1,3 +1,21 @@
+<div class="row">
+  <div class="col-4">
+    <input type="text" class="form-control" placeholder="Search..." [textContent]="filterName">
+  </div>
+  <div class="col-4">
+    <select class="form-control"  (change)="onLocationSelected($event)">
+      <option value="">Filter by Location</option>
+      <option *ngFor="let loc of locations" value="{{loc}}">{{loc}}</option>
+    </select>
+  </div>
+    <div class="col-4">    
+    <select class="form-control" (change)="onTypeSelected($event)">
+      <option value="">Filter by Type</option>
+      <option *ngFor="let type of types" [value]="type">{{type}}</option>
+    </select>
+  </div>
+</div>
+
 <app-event-row
   *ngFor="let event of getEvents"
   [title]="event.key"
