@@ -1,1 +1,8 @@
-<p>recommendations-page works!</p>
+<app-event-row
+    *ngFor="let event of getEvents"
+    [title]="event.key"
+    [events]="event.value"
+    [ngClass]="{'hide_row': event.value.length === 0}"
+  >
+</app-event-row>
+  

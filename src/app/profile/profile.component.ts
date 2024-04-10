@@ -18,8 +18,8 @@ export class ProfileComponent {
   bubbles: Bubble[] = [
     {name: "Movies", selected: false},
     {name: "Running", selected: false},
-    {name: "Sports", selected: false},
-    {name: "Sci-Fi", selected: false},
-    {name: "Fantasy", selected: false},
+    {name: "Metal", selected: false},
+    {name: "Board Games", selected: false},
+    {name: "Rock", selected: false},
   ]
 }
