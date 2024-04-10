@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-4">
-    <input type="text" class="form-control" placeholder="Search..." [textContent]="filterName">
+    <input type="text" class="form-control" placeholder="Search..." [textContent]="filterName" (input)="onSearchTypes($event)">
   </div>
   <div class="col-4">
     <select class="form-control"  (change)="onLocationSelected($event)">
@@ -20,4 +20,5 @@
   *ngFor="let event of getEvents"
   [title]="event.key"
   [events]="event.value"
+  [ngClass]="{'hide_row': event.value.length === 0}"
 ></app-event-row>

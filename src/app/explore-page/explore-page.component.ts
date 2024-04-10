@@ -52,6 +52,7 @@ export class ExplorePageComponent implements OnInit {
   }
 
   onSearchTypes(value: any) {
+    this.filterName = value.target.value;
     this.doFilter();
   }
 
@@ -68,7 +69,10 @@ export class ExplorePageComponent implements OnInit {
   }
 
   doFilterForItem(item: EventItem): boolean {
-    return (this.filterName === "" || item.name.includes(this.filterName))&& (this.filterLocation === "" || item.location === this.filterLocation);
+    console.log(this.filterName)
+    console.log(item.name);
+    console.log((this.filterName === "" || item.name.includes(this.filterName)))
+    return (this.filterName === "" || item.name.includes(this.filterName)) && (this.filterLocation === "" || item.location === this.filterLocation);
   }
 
   updateView(): void {

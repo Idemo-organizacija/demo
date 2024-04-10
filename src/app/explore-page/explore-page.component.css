@@ -1,3 +1,7 @@
 .dropdown:hover {
     background-color: #bd6bff;
 }
+
+.hide_row {
+    display: none;
+}
