@@ -1,0 +1,42 @@
+.gradient-bg {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px - 200px);
+    background: linear-gradient(#D0D4FE, #FBDFFB);
+    z-index: -1;
+}
+
+.login-button {
+    background-color: transparent;
+    border: 2px solid #bd6bff;
+    color: #bd6bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #bd6bff;
+    color: white;
+}
+
+.bubble-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bubble {
+    border: 2px solid #bd6bff;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .bubble.selected {
+    background-color: #bd6bff;
+    color: white;
+  }

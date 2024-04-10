@@ -21,7 +21,6 @@ export class InterestPickerComponent  implements OnInit {
   
   ngOnInit(): void {
     const interests = new DataServiceService().getAllInterests();
-    console.log(interests);
     for (const interest of interests){
       this.bubbles.push({name: interest, selected: false});
     }
