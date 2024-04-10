@@ -69,9 +69,6 @@ export class ExplorePageComponent implements OnInit {
   }
 
   doFilterForItem(item: EventItem): boolean {
-    console.log(this.filterName)
-    console.log(item.name);
-    console.log((this.filterName === "" || item.name.includes(this.filterName)))
     return (this.filterName === "" || item.name.toUpperCase().includes(this.filterName.toUpperCase())) && (this.filterLocation === "" || item.location === this.filterLocation);
   }
 
