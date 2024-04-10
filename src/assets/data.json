@@ -9,7 +9,7 @@
         },
         {
             "name": "Buc Kesidi",
-            "description": "",
+            "description": "Buc Kesidi is new indie band in Serbia",
             "type": "Rock Concert",
             "location": "Belgrade",
             "image": "https://f4.bcbits.com/img/a2519191499_10.jpg"
@@ -23,49 +23,49 @@
         },
         {
             "name": "AC/DC Tribute",
-            "description": "",
+            "description": "Thunderstruck! Experience the authentic experience of tribute AC/DC band",
             "type": "Rock Concert",
             "location": "New York",
             "image": "https://i.pinimg.com/564x/36/d3/ec/36d3ec082c2eee8f2e74d560755d6556.jpg"
         },
         {
             "name": "Queen Tribute",
-            "description": "",
+            "description": "Most enjoyable experience for one tribute band comes with Queen Tribute.",
             "type": "Rock Concert",
             "location": "New York",
             "image": "https://media.pitchfork.com/photos/5bcdf986b6b4f21eb1010d1c/1:1/w_450%2Cc_limit/Queen-Bohemian-Rhapsody-The-Original-Soundtrack-Cover-Art.jpeg.jpg"
         },
         {
             "name": "Yu Grupa",
-            "description": "",
+            "description": "Old Ex-Yu band rocking since 60s.",
             "type": "Rock Concert",
             "location": "Belgrade",
             "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/1973b_-_YU_Grupa.jpg"
         },
         {
             "name": "Van Gogh",
-            "description": "",
+            "description": "Can't spell 90s without this band.",
             "type": "Rock Concert",
             "location": "Belgrade",
             "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/Van_Gogh_Album.jpeg"
         },
         {
             "name": "Jelena Rozga Mini Concert",
-            "description": "",
+            "description": "Jelena Rozga is famous croatian singer from group Magazin.",
             "type": "Pop Concert",
             "location": "Belgrade",
             "image": "https://cdns-images.dzcdn.net/images/cover/cf34f8ed9e75b0b52268d15635ccdae1/500x500.jpg"
         },
         {
             "name": "Zeljko Joksimovic",
-            "description": "",
+            "description": "Best know for 'Lane moje', a 2nd place at eurovision concert",
             "type": "Pop Concert",
             "location": "Belgrade",
             "image": "https://www.evropesma.org/wp-content/uploads/2015/07/ZeljkoJ.png"
         },
         {
             "name": "Lexington",
-            "description": "",
+            "description": "Band that reminds you of summer",
             "type": "Pop Concert",
             "location": "Belgrade",
             "image": "https://i1.sndcdn.com/artworks-000032502943-eac7kk-t500x500.jpg"
